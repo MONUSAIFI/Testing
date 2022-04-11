@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice set</title>
+    <link rel="icon" href="https://e7.pngegg.com/pngimages/710/115/png-clipart-computer-icons-favicon-science-iconfinder-free-science-icon-text-logo.png">
+    <style>
+        h1{
+            text-align: center;
+            text-shadow: 2px solid black; 
+        }
+        .container{
+            border: 2px solid black;
+            background-color: silver;
+            margin: 50px;
+            padding: 15px;
+            
+        }
+        #name
+        .person_pic{
+            text-align: left;
+        }
+        .person_pic label{
+            font-weight: bold;
+        }
+        #foodcanteen{
+            margin: 20px;
+            text-align: left;
+            cursor: pointer;
+
+        }
+        #sectionida{
+            margin: 10px;
+            cursor: pointer;
+        }
+        #sectionidb{
+            cursor: pointer;
+        }
+        #sectionidc{
+            cursor: pointer;
+        }
+        .container{
+            font-weight: bold;
+        }
+        a{
+            text-decoration: none;
+            background-color: rgb(9, 1, 17);
+        }
+        a,.btn :hover{
+            background-color: rgb(214, 48, 26);
+        }
+        a,.btn :visited{
+            background-color: rgb(148, 100, 192);
+        }
+        a,.btn :active{
+            background-color: rgb(61, 61, 194);
+        }
+        .btn{
+            font-family: 'Times New Roman', Times, serif;
+            padding: 2px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: rgb(110, 238, 238);
+        }
+        .hthree{
+            margin-right: 5px;
+            margin-left: 50px;
+        }
+        #adress{
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="pubg"> 
+        <h1>Travel form for our trip </h1>
+         <div class="hthree">
+        <h3>Fill your registration form</h3></div>
+        <div class="container" id="form">
+            <form action="form.php"></form>
+            <input type="Text" placeholder="enter your name" id="name">
+            <input type="text" placeholder="add your adress" id="adress"><br>
+            <label for="sectionida">
+                <input type="radio" value="section a " name="section" id="sectionida">Section A
+            </label>
+            <label for="sectionidb">
+                <input type="radio" value="section b" name="section" id="sectionidb">Section B
+            </label>
+            <label for="sectionidc">
+                <input type="radio" value="section c" name="section" id="sectionidc">Section C
+            </label><br>
+            <input type="checkbox" id="foodcanteen" class="red" name="canteen">
+            <label for="foodcanteen">want food canteen card</label>
+            
+            <div class="person_pic">
+                <label>Please upload your photo</label>
+                <input  type='file' name="image" onchange="readURL(this);" />
+                <img id="blah" src=""  />
+                </div>
+                <p id="firstpara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore asperiores, fuga hic voluptas placeat omnis dolores reiciendis, molestias dolorum facilis cumque eaque iste! Alias a, excepturi tempora totam autem quia consectetur mollitia amet minima.</p>
+                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                <p id="secondpara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam doloremque enim aspernatur esse quas, earum non accusamus, accusantium praesentium error tempore, rerum tempora maxime. Delectus, provident nesciunt minima eum deleniti sequi doloribus consectetur ut, officia temporibus ab ducimus repellendus velit?</p><br>
+                <br>
+                <a href="https://google.com" class="btn">contact us</a>
+                <button class="btn">submitt your form </button>
+              
+
+        </div>
+
+    </div>
+</body>
+</html>
